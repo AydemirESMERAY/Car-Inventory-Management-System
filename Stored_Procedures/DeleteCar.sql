@@ -1,0 +1,6 @@
+CREATE PROCEDURE DeleteCar
+    @CarID INT
+AS
+BEGIN
+    DELETE FROM Car WHERE CarID = @CarID;
+END;
